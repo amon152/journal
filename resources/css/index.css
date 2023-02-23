@@ -1,11 +1,11 @@
-/* Styles for the html tag */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/*Formatting for main body*/
+
 body {
   /* background-image: url("../images/wood.jpg"); */
   background-color: rgb(76, 89, 114);
