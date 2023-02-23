@@ -3,14 +3,14 @@ let todayList = document.getElementById('todayList');
 let backlogList = document.getElementById('backlogList');
 
 const Row = {
-    //Style of row
+   
     style: "margin: 1em; display: flex; justify-content: space-between; align-items: center; width: 100%; height: 2em;",
     class: "row",
     
-    //Different row components, their styles, innerHTML contents, and corresponding functions.
+    
     components: {
         
-        //Entry (where you actually have the task description)
+    
         entry: {
             style: "font-size: 1.2em; cursor: pointer; margin: 0.5em 1em 0.5em 1em;",
             crossOutClick: function(event) {
@@ -18,7 +18,7 @@ const Row = {
             }
         },
 
-        //Remove button (deletes the row)
+     
         remove: {
             style: "font-size: 1.2em; cursor: pointer; margin: 0.5em 1em 0.5em 1em;",
             content: "Remove",
@@ -27,7 +27,7 @@ const Row = {
             }
         },
         
-        //Backlog button (moves the row to the backlog to-do list and reformats so that it no longer has backlog button)
+        
         backlog: {
             style: "font-size: 1.2em; cursor: pointer; margin: 0.5em 1em 0.5em 1em;",
             content: "Backlog",
